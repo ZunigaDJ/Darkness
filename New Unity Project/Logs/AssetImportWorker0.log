@@ -15,11 +15,11 @@ C:/Users/zunig/Desktop/Shadow/Darkness/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52738
+59543
 Successfully changed project path to: C:/Users/zunig/Desktop/Shadow/Darkness/New Unity Project
 C:/Users/zunig/Desktop/Shadow/Darkness/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003108 seconds.
+Registered in 0.003075 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.298 seconds
+- Completed reload, in  1.517 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006309 seconds.
+Registered in 0.007505 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.649 seconds
+- Completed reload, in  1.766 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 92.8 MB.
+System memory in use before: 93.0 MB.
+System memory in use after: 92.9 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 4.523900 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.250300 ms MarkObjects: 3.753300 ms  DeleteObjects: 0.223300 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 5.481800 ms (FindLiveObjects: 0.355000 ms CreateObjectMapping: 0.448700 ms MarkObjects: 4.455900 ms  DeleteObjects: 0.220200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,376 +80,616 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiles
-  artifactKey: Guid(1d3bbf38720d08c41946b7a2eefe238a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles using Guid(1d3bbf38720d08c41946b7a2eefe238a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0484ff4b0b3638856150055d7f51b396') in 0.016289 seconds 
-  Import took 0.020689 seconds .
+  path: Assets/Scenes
+  artifactKey: Guid(f8c3846aff6f72f4a806c5ea8240d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f8c3846aff6f72f4a806c5ea8240d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ad0dc725b518dc5d39f59282bf8241') in 0.023269 seconds 
+  Import took 0.032041 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.733029 seconds.
-  path: Assets/Palettes
-  artifactKey: Guid(ced8ef7224f0cab47a644e47589d32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palettes using Guid(ced8ef7224f0cab47a644e47589d32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff6487a2d3707d91918f25a5298acc7') in 0.015705 seconds 
-  Import took 0.020629 seconds .
+  Time since last request: 0.021671 seconds.
+  path: Assets/Palettes/Background_Wall.prefab
+  artifactKey: Guid(14f1dd92c981e3442935f5a25c01f215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/Background_Wall.prefab using Guid(14f1dd92c981e3442935f5a25c01f215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a467929c64031cebde0f9416eca92d') in 0.096833 seconds 
+  Import took 0.100815 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061424 seconds.
-  path: Assets/Palettes/Ground_Tiles.prefab
-  artifactKey: Guid(65e81c5bf8f86f947a7428873e6111d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palettes/Ground_Tiles.prefab using Guid(65e81c5bf8f86f947a7428873e6111d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e2b771f5f51673f6b4e2a59bfe7e37') in 0.086891 seconds 
-  Import took 0.093617 seconds .
+  Time since last request: 492.652240 seconds.
+  path: Assets/Tiles/Background_Tiles
+  artifactKey: Guid(f13c68d13f668f147a9848ccfff7284b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles using Guid(f13c68d13f668f147a9848ccfff7284b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4555f5ddcb1b492d0ed9649b407a06') in 0.013262 seconds 
+  Import took 0.019220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.568785 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0840fc0c88a7c1ca923280512ee89d03') in 0.011151 seconds 
-  Import took 0.016117 seconds .
+  Time since last request: 0.047853 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_0.asset
+  artifactKey: Guid(9643bfe7f9ce2594085f4b1fc7fdd816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_0.asset using Guid(9643bfe7f9ce2594085f4b1fc7fdd816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1e271dbbbae87c8b936bf0073195f4') in 0.079583 seconds 
+  Import took 0.085195 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.102633 seconds.
-  path: Assets/Tiles/Game Jam window sprite.png
-  artifactKey: Guid(f6b88c42cc4cece46b8802d707a2d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Game Jam window sprite.png using Guid(f6b88c42cc4cece46b8802d707a2d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b344ca66dd44f3e88b699d6a234488c8') in 0.137005 seconds 
-  Import took 0.141574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.148780 seconds.
-  path: Assets/Tiles/Ground_Tiles
-  artifactKey: Guid(470cc4b0272b6654285fa0a3c407a250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles using Guid(470cc4b0272b6654285fa0a3c407a250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dae96eb979fdf8e009a93c9d2abd3d') in 0.003067 seconds 
-  Import took 0.007875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048803 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_0.asset
-  artifactKey: Guid(31ae8e8410d6b6e4ba4a60e02c328373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_0.asset using Guid(31ae8e8410d6b6e4ba4a60e02c328373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53f2180e5f6824cb367135e44bd1981') in 0.039459 seconds 
-  Import took 0.044341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_22.asset
-  artifactKey: Guid(e9a2f13f070a60b4792aeaf09b4ebe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_22.asset using Guid(e9a2f13f070a60b4792aeaf09b4ebe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97be9200db8eeebef2842b26be57d70a') in 0.017035 seconds 
-  Import took 0.020902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_4.asset
-  artifactKey: Guid(a298eb39807cfbf469d5f9d4fb9eb37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_4.asset using Guid(a298eb39807cfbf469d5f9d4fb9eb37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d692090fbe12bd3586d2ab05405ee5') in 0.017262 seconds 
-  Import took 0.022170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_30.asset
-  artifactKey: Guid(5f1483bdd3887e04abab55c1893532ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_30.asset using Guid(5f1483bdd3887e04abab55c1893532ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9518d22aa5d2e0088af642cf914fce') in 0.018555 seconds 
-  Import took 0.024109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_15.asset
-  artifactKey: Guid(48b48ae1a9164be4bac1e0bcf275ebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_15.asset using Guid(48b48ae1a9164be4bac1e0bcf275ebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a16b42b9510c8b56f1fca92b6ade21') in 0.016499 seconds 
-  Import took 0.020879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_19.asset
-  artifactKey: Guid(fa8c731e642a37948a81a503622bc4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_19.asset using Guid(fa8c731e642a37948a81a503622bc4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd5b4acc0acbb387ba0b65c8f2bb6d9') in 0.018977 seconds 
-  Import took 0.024771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_23.asset
-  artifactKey: Guid(ad8adf2311d830044bd4edfb5104522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_23.asset using Guid(ad8adf2311d830044bd4edfb5104522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568a64ee1baedbed5e98f33675abf92a') in 0.018312 seconds 
-  Import took 0.023288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_8.asset
-  artifactKey: Guid(1556abccefca2b3489c281b97193e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_8.asset using Guid(1556abccefca2b3489c281b97193e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921f68c7ca35ad5a8dd488695c742052') in 0.017498 seconds 
-  Import took 0.022713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000642 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_20.asset
-  artifactKey: Guid(0f3eecc976d2d9949b91d97b81afe9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_20.asset using Guid(0f3eecc976d2d9949b91d97b81afe9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec92f53883e905bc747b28ad2a09547') in 0.019312 seconds 
-  Import took 0.024550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_6.asset
-  artifactKey: Guid(9075ce95009afbf499af355193e4124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_6.asset using Guid(9075ce95009afbf499af355193e4124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3e4abe8d9e066d4eae3fff326a0b4c') in 0.018598 seconds 
-  Import took 0.023946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_9.asset
-  artifactKey: Guid(b6c093ef36d86884288ecd1372c34fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_9.asset using Guid(b6c093ef36d86884288ecd1372c34fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004498c84c97d0ff001d6fd5fa363042') in 0.017092 seconds 
-  Import took 0.021612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_26.asset
-  artifactKey: Guid(f757a763e91e5e64798ecd06c336de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_26.asset using Guid(f757a763e91e5e64798ecd06c336de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26033b1f2026dd45301d91a0c2a5e72f') in 0.019581 seconds 
-  Import took 0.024612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_13.asset
-  artifactKey: Guid(444cc83b8611bf84b99c5df408cda2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_13.asset using Guid(444cc83b8611bf84b99c5df408cda2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12792f3167b12e64156bc93a093f0d5') in 0.017587 seconds 
-  Import took 0.023179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_7.asset
-  artifactKey: Guid(be2028ebbff06de4ab18b2257d80ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_7.asset using Guid(be2028ebbff06de4ab18b2257d80ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803b50226590a24291f177d543d37e13') in 0.017583 seconds 
-  Import took 0.022879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_11.asset
-  artifactKey: Guid(12241041d183584428232fe6f9a79a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_11.asset using Guid(12241041d183584428232fe6f9a79a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f23a736152f39202f33082216316a8f') in 0.023635 seconds 
-  Import took 0.029470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_25.asset
-  artifactKey: Guid(d20aeb89720133d4184adcda25234b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_25.asset using Guid(d20aeb89720133d4184adcda25234b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ece51dd1337ad7bf73a8d9ba1b678be') in 0.020873 seconds 
-  Import took 0.026992 seconds .
+  Time since last request: 0.000381 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_4.asset
+  artifactKey: Guid(9c6de08fdd9d89240b5fe8008df7051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_4.asset using Guid(9c6de08fdd9d89240b5fe8008df7051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ff50623f621a3077eb352c956a8b11') in 0.023368 seconds 
+  Import took 0.029410 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000317 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_16.asset
-  artifactKey: Guid(3f2b0000bf410814ca06218013a85508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_16.asset using Guid(3f2b0000bf410814ca06218013a85508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9043745a1a16c2664edc3a39e6f95ee7') in 0.020131 seconds 
-  Import took 0.026228 seconds .
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_6.asset
+  artifactKey: Guid(fee5b88182de44c4d9899bec5cf31aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_6.asset using Guid(fee5b88182de44c4d9899bec5cf31aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ee6800734dae945c17e0874dfbff7b') in 0.022503 seconds 
+  Import took 0.028432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_29.asset
-  artifactKey: Guid(43b44cf74787d594b9ae40d1d0674566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_29.asset using Guid(43b44cf74787d594b9ae40d1d0674566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb704ad6184d4562f655c3ee3858821') in 0.018896 seconds 
-  Import took 0.024881 seconds .
+  Time since last request: 0.000334 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_3.asset
+  artifactKey: Guid(fdbc3d0d7b55b5f4986e043886a60481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_3.asset using Guid(fdbc3d0d7b55b5f4986e043886a60481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ab599b5066fee6325c80b90aa9e315') in 0.019685 seconds 
+  Import took 0.025455 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_10.asset
-  artifactKey: Guid(daffba454d10f16438e761191bcbd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_10.asset using Guid(daffba454d10f16438e761191bcbd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4f40f8c69ef86cbcbf170c5fb01b5f') in 0.018131 seconds 
-  Import took 0.022830 seconds .
+  Time since last request: 0.000422 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_12.asset
+  artifactKey: Guid(d09533e0094ab5d4db5aea46b988121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_12.asset using Guid(d09533e0094ab5d4db5aea46b988121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206ead1782d1d0dff5618a3f080310d7') in 0.021242 seconds 
+  Import took 0.028384 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_28.asset
-  artifactKey: Guid(d658cc8f63baaac4692090f193115c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_28.asset using Guid(d658cc8f63baaac4692090f193115c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449b1d5d0e4ffdb7f100c1a1736dd0e') in 0.018179 seconds 
-  Import took 0.023979 seconds .
+  Time since last request: 0.000613 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_2.asset
+  artifactKey: Guid(ccd4b0974120d2043a5b587ee913a92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_2.asset using Guid(ccd4b0974120d2043a5b587ee913a92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383ac628ee1b3125e0c7546447f07671') in 0.018881 seconds 
+  Import took 0.024077 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_3.asset
-  artifactKey: Guid(c02f9ca06e020f341a11967e17070436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_3.asset using Guid(c02f9ca06e020f341a11967e17070436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122efdea96475226541eb7de0609ce29') in 0.017115 seconds 
-  Import took 0.022543 seconds .
+  Time since last request: 0.000289 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_9.asset
+  artifactKey: Guid(539311041ca158947b7755a9d6b3c363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_9.asset using Guid(539311041ca158947b7755a9d6b3c363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6cd9ea4983c54cb1e1e70e6debd5f8') in 0.020905 seconds 
+  Import took 0.029226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_24.asset
-  artifactKey: Guid(c852d114eabc7724392c1e90be8934eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_24.asset using Guid(c852d114eabc7724392c1e90be8934eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ec127396b0b3d3910c1916add7855b') in 0.018181 seconds 
-  Import took 0.023880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_17.asset
-  artifactKey: Guid(c6fa1d0569b31f7428e93c7065baf059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_17.asset using Guid(c6fa1d0569b31f7428e93c7065baf059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d965399fe270b3694ec116e47c4bb6e') in 0.018414 seconds 
-  Import took 0.022501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_5.asset
-  artifactKey: Guid(acef905dadf8e9f4fb1ea7baae9dd3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_5.asset using Guid(acef905dadf8e9f4fb1ea7baae9dd3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a000b503c405a08814a60b31e17a96c') in 0.020970 seconds 
-  Import took 0.027276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_14.asset
-  artifactKey: Guid(df6becc78a34279419d28dc144b1d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_14.asset using Guid(df6becc78a34279419d28dc144b1d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac0ca07851848136b36daec35db5956') in 0.014462 seconds 
-  Import took 0.019918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_1.asset
-  artifactKey: Guid(5ed9498f46da0854aa6d287e18e45687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_1.asset using Guid(5ed9498f46da0854aa6d287e18e45687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3cfaf48ff99f7ef0305e9dc446ce92') in 0.019252 seconds 
-  Import took 0.024207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_18.asset
-  artifactKey: Guid(e2830174eeca81e4383a3751722046b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_18.asset using Guid(e2830174eeca81e4383a3751722046b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d63842dd3334bfa75cfd1bc61d548b') in 0.019312 seconds 
-  Import took 0.024656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_27.asset
-  artifactKey: Guid(fe14f8f76b6cc8f44a87f0552232d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_27.asset using Guid(fe14f8f76b6cc8f44a87f0552232d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b852f662d4b79cfe5022d10667d545') in 0.020177 seconds 
-  Import took 0.026633 seconds .
+  Time since last request: 0.000392 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_7.asset
+  artifactKey: Guid(2e9f6af2e1254a94c92b6b9d9d400b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_7.asset using Guid(2e9f6af2e1254a94c92b6b9d9d400b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0b496668abda434cae779cc9675a40') in 0.021125 seconds 
+  Import took 0.027803 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000387 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_8.asset
+  artifactKey: Guid(e7c616f59646d9945a4ca40a87709daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_8.asset using Guid(e7c616f59646d9945a4ca40a87709daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec031ad435a6bf29d9641f64b5032a9') in 0.019440 seconds 
+  Import took 0.025909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_10.asset
+  artifactKey: Guid(fa803b11d882d8c4fa28f4bc36a0476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_10.asset using Guid(fa803b11d882d8c4fa28f4bc36a0476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7727dd4c9015a422db100b117b512625') in 0.019294 seconds 
+  Import took 0.024611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_11.asset
+  artifactKey: Guid(647cfa46c65fbab4994f6e5268fc4650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_11.asset using Guid(647cfa46c65fbab4994f6e5268fc4650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9a4f80f77a9ea46d6f2373973030cb') in 0.016941 seconds 
+  Import took 0.022597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_1.asset
+  artifactKey: Guid(bd92ac9f6a19ce34d91c09cf0c8338f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_1.asset using Guid(bd92ac9f6a19ce34d91c09cf0c8338f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49663809d4ef6f81ac657abd54e11611') in 0.021005 seconds 
+  Import took 0.026138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Tiles/Background_Tiles/Darkness_Background_5.asset
+  artifactKey: Guid(235681a9b9baa094ab65e4c1ec8034d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Background_Tiles/Darkness_Background_5.asset using Guid(235681a9b9baa094ab65e4c1ec8034d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6ce92e1561773302c4ede6fcc58253') in 0.018720 seconds 
+  Import took 0.024563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.372610 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_0.asset
+  artifactKey: Guid(5ce3ee662fd7c8a4585354709306870f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_0.asset using Guid(5ce3ee662fd7c8a4585354709306870f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2836983b3948ed87316c5257774f6b') in 0.017102 seconds 
+  Import took 0.024202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_5.asset
+  artifactKey: Guid(7b07399a17257d04c99408b6d6140ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_5.asset using Guid(7b07399a17257d04c99408b6d6140ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798316c7ab351e8658ef627311f34675') in 0.009727 seconds 
+  Import took 0.015154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_1.asset
+  artifactKey: Guid(b3682a544cf2f144eade4750f701fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_1.asset using Guid(b3682a544cf2f144eade4750f701fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411f2a5328e339a4f1866c956895c6ba') in 0.013861 seconds 
+  Import took 0.019021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_8.asset
+  artifactKey: Guid(372b22b6ea5098048a8136306f71ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_8.asset using Guid(372b22b6ea5098048a8136306f71ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b971d523280f6fa19e39bf5eb9990fd2') in 0.011302 seconds 
+  Import took 0.016870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_3.asset
+  artifactKey: Guid(770955c5eb6949541b74fb9b83b95451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_3.asset using Guid(770955c5eb6949541b74fb9b83b95451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e703db52c7f4bea9ff5427f8a766e47') in 0.011944 seconds 
+  Import took 0.017140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_7.asset
+  artifactKey: Guid(20edff94c60c95945ae73c8278f0eaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_7.asset using Guid(20edff94c60c95945ae73c8278f0eaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb6e9d8d744f9c258e03e11ddae95e5') in 0.011395 seconds 
+  Import took 0.015762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_12.asset
+  artifactKey: Guid(c6d847c41b67ad848ba01dfa23f13c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_12.asset using Guid(c6d847c41b67ad848ba01dfa23f13c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e6c5ffaa1922498cc3036118b4cc7f') in 0.011429 seconds 
+  Import took 0.015829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_11.asset
+  artifactKey: Guid(7ef8b0c840f2a0a47a4f2628bcc00429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_11.asset using Guid(7ef8b0c840f2a0a47a4f2628bcc00429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baea8e2a4248c9963ef63561de19abe') in 0.010973 seconds 
+  Import took 0.016651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_2.asset
+  artifactKey: Guid(3085f99c5b531fb4482b2f2115b624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_2.asset using Guid(3085f99c5b531fb4482b2f2115b624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ec969f1cf8cbfe4eff32b2694824bc') in 0.012049 seconds 
+  Import took 0.017775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_10.asset
+  artifactKey: Guid(3bdb89dfeee167146afb7123d8f5aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_10.asset using Guid(3bdb89dfeee167146afb7123d8f5aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdccf1bbec244557ad68515114052914') in 0.010005 seconds 
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_6.asset
+  artifactKey: Guid(36281bdf599b77048979a8f64db944de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_6.asset using Guid(36281bdf599b77048979a8f64db944de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161eecb25f70d82b5783d953a8862a39') in 0.017096 seconds 
+  Import took 0.024316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_9.asset
+  artifactKey: Guid(3cc4e85ac576ae14c8fe397350230102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_9.asset using Guid(3cc4e85ac576ae14c8fe397350230102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f347004996e52deabdf06a6f150c72c') in 0.012681 seconds 
+  Import took 0.019068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Tiles/Ground_Tiles/Darkness_Background_4.asset
+  artifactKey: Guid(430f4d5b775926648a3efb81108d6e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Darkness_Background_4.asset using Guid(430f4d5b775926648a3efb81108d6e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9feb8e4d3193226deeacf0bb45eaf2b') in 0.011197 seconds 
+  Import took 0.015661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.971238 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_4.asset
+  artifactKey: Guid(a298eb39807cfbf469d5f9d4fb9eb37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_4.asset using Guid(a298eb39807cfbf469d5f9d4fb9eb37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb6354dbcc75d977d8c79f257250d3') in 0.021878 seconds 
+  Import took 0.027946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_15.asset
+  artifactKey: Guid(48b48ae1a9164be4bac1e0bcf275ebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_15.asset using Guid(48b48ae1a9164be4bac1e0bcf275ebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55de4b86395cc954f40e578f564ba5d') in 0.016341 seconds 
+  Import took 0.020823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_19.asset
+  artifactKey: Guid(fa8c731e642a37948a81a503622bc4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_19.asset using Guid(fa8c731e642a37948a81a503622bc4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a2ef8ee1b689bbedc5eebea08f5f64') in 0.015978 seconds 
+  Import took 0.021069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_8.asset
+  artifactKey: Guid(1556abccefca2b3489c281b97193e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_8.asset using Guid(1556abccefca2b3489c281b97193e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80f54b6c3ffd1add582ae36097062e6') in 0.017781 seconds 
+  Import took 0.023125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_20.asset
+  artifactKey: Guid(0f3eecc976d2d9949b91d97b81afe9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_20.asset using Guid(0f3eecc976d2d9949b91d97b81afe9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3404f4f3e78beeef6fc7d31a00cb95b5') in 0.016857 seconds 
+  Import took 0.022041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_6.asset
+  artifactKey: Guid(9075ce95009afbf499af355193e4124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_6.asset using Guid(9075ce95009afbf499af355193e4124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514073d1b7f87f11df467caa9e84d34d') in 0.014656 seconds 
+  Import took 0.018599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_9.asset
+  artifactKey: Guid(b6c093ef36d86884288ecd1372c34fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_9.asset using Guid(b6c093ef36d86884288ecd1372c34fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca63652f1a163c32d5c8d0a363f2a33') in 0.016678 seconds 
+  Import took 0.023012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_26.asset
+  artifactKey: Guid(f757a763e91e5e64798ecd06c336de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_26.asset using Guid(f757a763e91e5e64798ecd06c336de15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cae8dc73ddf035af547b86deea2923e') in 0.020837 seconds 
+  Import took 0.028008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_13.asset
+  artifactKey: Guid(444cc83b8611bf84b99c5df408cda2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_13.asset using Guid(444cc83b8611bf84b99c5df408cda2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2fb42aeb02cdca09dc891d4a8673ac') in 0.012282 seconds 
+  Import took 0.018723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_7.asset
+  artifactKey: Guid(be2028ebbff06de4ab18b2257d80ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_7.asset using Guid(be2028ebbff06de4ab18b2257d80ec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bd9beb929556d82c093d311b4f34e5') in 0.015889 seconds 
+  Import took 0.022168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_11.asset
+  artifactKey: Guid(12241041d183584428232fe6f9a79a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_11.asset using Guid(12241041d183584428232fe6f9a79a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5994bef915e85781e6530e69c8fa7358') in 0.018811 seconds 
+  Import took 0.024210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_25.asset
+  artifactKey: Guid(d20aeb89720133d4184adcda25234b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_25.asset using Guid(d20aeb89720133d4184adcda25234b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4aa623743add2cc56c5d5cadfaebc1') in 0.017720 seconds 
+  Import took 0.024383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_16.asset
+  artifactKey: Guid(3f2b0000bf410814ca06218013a85508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_16.asset using Guid(3f2b0000bf410814ca06218013a85508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d0a0ba29b47ff32440d846ee3258bd') in 0.013182 seconds 
+  Import took 0.018637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_10.asset
+  artifactKey: Guid(daffba454d10f16438e761191bcbd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_10.asset using Guid(daffba454d10f16438e761191bcbd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a568c87963f39b4790fc8eaf28d5560') in 0.015824 seconds 
+  Import took 0.019931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_24.asset
+  artifactKey: Guid(c852d114eabc7724392c1e90be8934eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_24.asset using Guid(c852d114eabc7724392c1e90be8934eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efacde57d27858795718b2a958a6ee5') in 0.011043 seconds 
+  Import took 0.018511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_17.asset
+  artifactKey: Guid(c6fa1d0569b31f7428e93c7065baf059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_17.asset using Guid(c6fa1d0569b31f7428e93c7065baf059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044dc31f0221156fed58f80b406335b1') in 0.013722 seconds 
+  Import took 0.020421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_5.asset
+  artifactKey: Guid(acef905dadf8e9f4fb1ea7baae9dd3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_5.asset using Guid(acef905dadf8e9f4fb1ea7baae9dd3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb383a0314952a80b736a631b33c6a33') in 0.015438 seconds 
+  Import took 0.021050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_14.asset
+  artifactKey: Guid(df6becc78a34279419d28dc144b1d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_14.asset using Guid(df6becc78a34279419d28dc144b1d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883de110952218ab4d52279825735bc1') in 0.016309 seconds 
+  Import took 0.023333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_1.asset
+  artifactKey: Guid(5ed9498f46da0854aa6d287e18e45687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_1.asset using Guid(5ed9498f46da0854aa6d287e18e45687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c23de805d132af244edcf4d044667e') in 0.018680 seconds 
+  Import took 0.024728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_18.asset
+  artifactKey: Guid(e2830174eeca81e4383a3751722046b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_18.asset using Guid(e2830174eeca81e4383a3751722046b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeef038c8d80992058af2092582a498e') in 0.015296 seconds 
+  Import took 0.020774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_27.asset
+  artifactKey: Guid(fe14f8f76b6cc8f44a87f0552232d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_27.asset using Guid(fe14f8f76b6cc8f44a87f0552232d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb3033ca24bb4b360362a6e1b692053') in 0.008601 seconds 
+  Import took 0.013883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
   path: Assets/Tiles/Ground_Tiles/Tileset_main_12.asset
   artifactKey: Guid(f19fa3d4f9aace449a88683bc28df06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_12.asset using Guid(f19fa3d4f9aace449a88683bc28df06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1970d0ad27df8828f1cd20ec96a9dd0f') in 0.015976 seconds 
-  Import took 0.022554 seconds .
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_12.asset using Guid(f19fa3d4f9aace449a88683bc28df06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60796eb9f55fd7617aaac701deb4416') in 0.014163 seconds 
+  Import took 0.019646 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
+  Time since last request: 9.919398 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_0.asset
+  artifactKey: Guid(31ae8e8410d6b6e4ba4a60e02c328373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_0.asset using Guid(31ae8e8410d6b6e4ba4a60e02c328373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f51cf15d8a64406d80a5ef89b1701') in 0.019474 seconds 
+  Import took 0.026522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Tiles/Ground_Tiles/Tileset_main_3.asset
+  artifactKey: Guid(c02f9ca06e020f341a11967e17070436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_3.asset using Guid(c02f9ca06e020f341a11967e17070436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647b6a24d22204cb8286cfbc659332e2') in 0.017736 seconds 
+  Import took 0.023985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
   path: Assets/Tiles/Ground_Tiles/Tileset_main_2.asset
   artifactKey: Guid(d2a5dddf9cdefd54294e19620f0edbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_2.asset using Guid(d2a5dddf9cdefd54294e19620f0edbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129242b78e19e68bc40ec30a7ac82ee6') in 0.020368 seconds 
-  Import took 0.026423 seconds .
+Start importing Assets/Tiles/Ground_Tiles/Tileset_main_2.asset using Guid(d2a5dddf9cdefd54294e19620f0edbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f181d58816d0e06f50768fdbc0ad3f5') in 0.016884 seconds 
+  Import took 0.023140 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 3.365600 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.087000 ms MarkObjects: 2.860400 ms  DeleteObjects: 0.193000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138.737140 seconds.
+  path: Assets/Background Tiles.png
+  artifactKey: Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Tiles.png using Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41cf23b917d6d77a4755234a2831055') in 0.468030 seconds 
+  Import took 0.496093 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Tiles/Ground_Tiles/Tileset_main_21.asset
-  artifactKey: Guid(4a766f97ea3f5414386d4053ee5796cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ground_Tiles/Tileset_main_21.asset using Guid(4a766f97ea3f5414386d4053ee5796cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076f252a4895f2a6f82fc199fd13bf89') in 0.018377 seconds 
-  Import took 0.023990 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/Security Guard Sprites game jam.png
+  artifactKey: Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Security Guard Sprites game jam.png using Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd112d531320a22557814e8621ee2ae4b') in 0.054628 seconds 
+  Import took 0.062546 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.403476 seconds.
-  path: Assets/CharacterEditorPackage
-  artifactKey: Guid(2a2b630fb1c2fd14398ec7ba2db66ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CharacterEditorPackage using Guid(2a2b630fb1c2fd14398ec7ba2db66ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fad2523ba8113990d21f5603901f5e5') in 0.013158 seconds 
-  Import took 0.017798 seconds .
+  Time since last request: 21.559460 seconds.
+  path: Assets/Security Guard Sprites game jam.png
+  artifactKey: Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Security Guard Sprites game jam.png using Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226c3e1117ea0b9a0c4ecda7f6670170') in 0.014594 seconds 
+  Import took 0.019805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1232.454825 seconds.
-  path: Assets/Darkness_Background.png
-  artifactKey: Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Darkness_Background.png using Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaf9a9036190765f66340d418ad38f4') in 0.027507 seconds 
-  Import took 0.033772 seconds .
+  Time since last request: 0.034584 seconds.
+  path: Assets/Security Guard Sprites game jam.png
+  artifactKey: Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Security Guard Sprites game jam.png using Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226c3e1117ea0b9a0c4ecda7f6670170') in 0.011923 seconds 
+  Import took 0.017497 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.002711 seconds.
-  path: Assets/Darkness_Background.png
-  artifactKey: Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Darkness_Background.png using Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba9ecda77e7cbae7fcf68cf8028feba') in 0.016210 seconds 
-  Import took 0.021806 seconds .
+  Time since last request: 47.829048 seconds.
+  path: Assets/Security Guard Sprites game jam.png
+  artifactKey: Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Security Guard Sprites game jam.png using Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b259467aa9c6508e8d0bf7b4833156') in 0.025143 seconds 
+  Import took 0.029755 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.220450 seconds.
-  path: Assets/Darkness_Background.png
-  artifactKey: Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Darkness_Background.png using Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00838b6f01da558a6ce0b25db2ffd88') in 0.054709 seconds 
-  Import took 0.060149 seconds .
+  Time since last request: 0.029860 seconds.
+  path: Assets/Security Guard Sprites game jam.png
+  artifactKey: Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Security Guard Sprites game jam.png using Guid(d85b14f98a1fe224a85668f8c5aea3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b259467aa9c6508e8d0bf7b4833156') in 0.022512 seconds 
+  Import took 0.027358 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.051992 seconds.
-  path: Assets/Darkness_Background.png
-  artifactKey: Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Darkness_Background.png using Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50907bf193563e8429afa1c4b8e46bd7') in 0.062983 seconds 
-  Import took 0.069808 seconds .
+  Time since last request: 44.316955 seconds.
+  path: Assets/Sprite_Sheets/Security
+  artifactKey: Guid(97441e405dbe536418dcc1a2bb864f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite_Sheets/Security using Guid(97441e405dbe536418dcc1a2bb864f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53830432dcfdd154a9c1ca70fae4343') in 0.011324 seconds 
+  Import took 0.017620 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 77.819322 seconds.
-  path: Assets/Rectangular Palette.prefab
-  artifactKey: Guid(22d4a1e6b3c6ed547a6a8e3698ec31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rectangular Palette.prefab using Guid(22d4a1e6b3c6ed547a6a8e3698ec31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76aa36470f8515ccb05187b53c5fdd2d') in 0.013692 seconds 
-  Import took 0.020193 seconds .
+  Time since last request: 0.004608 seconds.
+  path: Assets/Sprite_Sheets/Security
+  artifactKey: Guid(97441e405dbe536418dcc1a2bb864f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite_Sheets/Security using Guid(97441e405dbe536418dcc1a2bb864f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53830432dcfdd154a9c1ca70fae4343') in 0.004883 seconds 
+  Import took 0.010657 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.567881 seconds.
-  path: Assets/Rectangular Palette.prefab
-  artifactKey: Guid(22d4a1e6b3c6ed547a6a8e3698ec31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rectangular Palette.prefab using Guid(22d4a1e6b3c6ed547a6a8e3698ec31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9379329902024904addd34a909b965') in 0.008693 seconds 
-  Import took 0.017192 seconds .
+  Time since last request: 128.612196 seconds.
+  path: Assets/Background Tiles.png
+  artifactKey: Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Tiles.png using Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8cd33a88f3bd715113fcd220fb8adf') in 0.016885 seconds 
+  Import took 0.022301 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.803336 seconds.
-  path: Assets/Rectangular Palette.prefab
-  artifactKey: Guid(22d4a1e6b3c6ed547a6a8e3698ec31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rectangular Palette.prefab using Guid(22d4a1e6b3c6ed547a6a8e3698ec31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95a0c522beffca436cff58d775ef21b') in 0.006345 seconds 
-  Import took 0.012565 seconds .
+  Time since last request: 0.041978 seconds.
+  path: Assets/Background Tiles.png
+  artifactKey: Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Tiles.png using Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8cd33a88f3bd715113fcd220fb8adf') in 0.011483 seconds 
+  Import took 0.015800 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 111.683920 seconds.
-  path: Assets/Darkness_Background.png
-  artifactKey: Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Darkness_Background.png using Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f04b0d6abb4bb3d82ba9b334cd7bb8') in 0.074308 seconds 
-  Import took 0.080837 seconds .
+  Time since last request: 20.898626 seconds.
+  path: Assets/Background Tiles.png
+  artifactKey: Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Tiles.png using Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae8a94a118ab8ab2612bb0b5b4779f2') in 0.031176 seconds 
+  Import took 0.035813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.886801 seconds.
-  path: Assets/Darkness_Background.png
-  artifactKey: Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Darkness_Background.png using Guid(d779e2a0c1e26bb4d81a3e6b0eaecc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc608b0fe7d61f650424c113acd7da21') in 0.063325 seconds 
-  Import took 0.068333 seconds .
+  Time since last request: 0.026701 seconds.
+  path: Assets/Background Tiles.png
+  artifactKey: Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Tiles.png using Guid(f38cc88e2c4900440aa4c52ceefa24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae8a94a118ab8ab2612bb0b5b4779f2') in 0.033195 seconds 
+  Import took 0.038677 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 101.885406 seconds.
+  path: Assets/Tiles/Misc
+  artifactKey: Guid(2d14ccbd68f04a04d846f09953883335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Misc using Guid(2d14ccbd68f04a04d846f09953883335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857bdbda9a18da9f93129f9237c1880e') in 0.010816 seconds 
+  Import took 0.016719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058037 seconds.
+  path: Assets/Tiles/Misc/Background Tiles_0.asset
+  artifactKey: Guid(17fa295c52b4976429300d61359bdecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Misc/Background Tiles_0.asset using Guid(17fa295c52b4976429300d61359bdecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c9e8960d5283d36a3a805474bff888') in 0.035072 seconds 
+  Import took 0.041168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Tiles/Misc/Background Tiles_5.asset
+  artifactKey: Guid(480260c134692b34d8f3b44891952bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Misc/Background Tiles_5.asset using Guid(480260c134692b34d8f3b44891952bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38b866ffd59d168b4618ec1e5d5504a') in 0.017388 seconds 
+  Import took 0.021545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Tiles/Misc/Background Tiles_4.asset
+  artifactKey: Guid(dc42c8c3719240c4b8d5bd138ce5aec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Misc/Background Tiles_4.asset using Guid(dc42c8c3719240c4b8d5bd138ce5aec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1574308bfe3177fc5db5e7a947efbf3') in 0.020880 seconds 
+  Import took 0.027317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Tiles/Misc/Background Tiles_3.asset
+  artifactKey: Guid(87448f7f703bca24ba1d66b6ac52409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Misc/Background Tiles_3.asset using Guid(87448f7f703bca24ba1d66b6ac52409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3b30cedc8cd26a9fb08668ad822a4f') in 0.020917 seconds 
+  Import took 0.025560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Tiles/Misc/Background Tiles_1.asset
+  artifactKey: Guid(a6fa72e6eb8a9f34291338d514d87eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Misc/Background Tiles_1.asset using Guid(a6fa72e6eb8a9f34291338d514d87eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493f965d8db4a26c631725da431e5032') in 0.022136 seconds 
+  Import took 0.027594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tiles/Misc/Background Tiles_2.asset
+  artifactKey: Guid(5450da755264a2f4fbfa4937403a1c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Misc/Background Tiles_2.asset using Guid(5450da755264a2f4fbfa4937403a1c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5c55dfd8391802162e2a175a179f64') in 0.019799 seconds 
+  Import took 0.024806 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
